@@ -2,3 +2,44 @@
 *{
     font-family: "Funnel Sans", sans-serif;
 }
+/* P #33425B */
+/* S #D8E9F0 */
+/* A #F33535 */
+body{
+    background-color: #d8e9f0;
+}
+
+.nav{
+    position: sticky;
+    margin:0;
+    padding: 20px;
+    background-color:#33425b ;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 0;
+}
+.image{
+    background-image:url("quarry.jpg") ;
+    padding:200px;
+    margin:0;
+    text-align: center;
+    color:whitesmoke;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image h1 , p{
+    max-width: 60%;
+    margin:auto;
+    padding:20px;
+}
+.nav div a{
+    background-color: #33425b;
+    border: #33425b solid 2px;
+}
+.nav div{
+    display: flex;
+    justify-content: end;
+}
