@@ -10,12 +10,15 @@ body{
 }
 
 .nav{
-    position: sticky;
+    position:sticky;
+    top:0;
     margin:0;
     padding: 20px;
+    color: #d8e9f0;
     background-color:#33425b ;
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
 }
 h1{
     margin: 0;
@@ -31,15 +34,31 @@ h1{
     background-position: center;
 }
 .image h1 , p{
-    max-width: 60%;
     margin:auto;
     padding:20px;
 }
-.nav div a{
-    background-color: #33425b;
-    border: #33425b solid 2px;
+.nav div a , .image a{
+    color: #33425b;
+    background-color: #d8e9f0;
+    border: black solid 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 25px;
 }
 .nav div{
     display: flex;
     justify-content: end;
+}
+.scroll{
+    padding-bottom: 1000px;
+}
+.contacts{
+    text-align: center;
+}
+#name{
+    margin:0;
+}
+#job{
+    text-decoration: underline;
 }
