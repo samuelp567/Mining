@@ -22,6 +22,7 @@ body{
 }
 h1{
     margin: 0;
+
 }
 .image{
     background-image:url("quarry.jpg") ;
@@ -62,3 +63,42 @@ h1{
 #job{
     text-decoration: underline;
 }
+#pick{
+    position:absolute;
+    top:300px;
+    left:200px;
+}
+#rock{
+    position:absolute;
+    top:340px;
+    left:142px;
+}
+table, th, td {
+    border: 1px solid #33425b;
+    display: flex;
+    justify-content: center;
+  }
+  table{
+    border:0;
+    font-size:25px;
+    /* margin: 30px; */
+    
+  }
+  td{
+    padding: 10px; 
+    /* margin: 30px; */
+  }
+  tr{
+    margin: 10px;
+    display:block;
+  }
+  #price{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .image h1{
+    font-size: 40px;
+  }
+  .image p{
+    font-size: 20px;
+  }
